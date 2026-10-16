@@ -14,7 +14,7 @@
 <meta name="twitter:title" content="Abundance — web3 content">
 <meta name="twitter:description" content="Social media manager, AI creator and content writer for web3 projects.">
 <meta name="twitter:image" content="https://niferchecks.xyz/og.png">
-<meta name="theme-color" content="#2f5fcf">
+<meta name="theme-color" content="#eceef2">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%232f5fcf'/%3E%3Cpath d='M16 5L26 27h-5l-2-5h-6l-2 5H6zM14.2 18h3.6L16 13z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,16 +22,16 @@
 <script>document.documentElement.className='js'</script>
 <style>
 :root {
-  --bg: #2f5fcf;
-  --ink: #ffffff;
-  --muted: #d6e3ff;
-  --line: #ffffff;
-  --soft: rgba(255,255,255,.28);
-  --accent: #bfe0ff;
-  --on-accent: #0b1f4d;
+  --bg: #eceef2;
+  --ink: #0b1220;
+  --muted: #4a5468;
+  --line: #0b1220;
+  --soft: rgba(11,18,32,.16);
+  --accent: #2f5fcf;
+  --on-accent: #ffffff;
   --display: "Archivo", "Arial Narrow", system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
-  color-scheme: dark;
+  color-scheme: light;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -64,9 +64,9 @@ section[id] { scroll-margin-top: 16px; }
 .lede { font-size: clamp(22px, 3vw, 32px); font-weight: 600; line-height: 1.2; max-width: 24em; letter-spacing: -.01em; }
 .lede em { font-style: normal; background: var(--accent); color: var(--on-accent); padding: 0 .2em; }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; }
-.btn { font-weight: 700; text-decoration: none; padding: 12px 20px; border: 2px solid var(--line); background: var(--ink); color: var(--bg); transition: transform .15s, box-shadow .15s; }
-.btn.alt { background: transparent; color: var(--ink); }
-.btn:hover { transform: translate(-3px, -3px); box-shadow: 3px 3px 0 var(--accent); }
+.btn { font-weight: 700; text-decoration: none; padding: 12px 20px; border: 2px solid var(--accent); background: var(--accent); color: var(--on-accent); transition: transform .15s, box-shadow .15s; }
+.btn.alt { background: transparent; color: var(--accent); }
+.btn:hover { transform: translate(-3px, -3px); box-shadow: 3px 3px 0 var(--ink); }
 
 /* sections */
 section { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 32px; padding: 56px 0; border-bottom: 2px solid var(--line); }
